@@ -1,20 +1,20 @@
 import React from 'react'
-import QuickStart from './components/QuickStart'
-import MyButton from './components/MyButton'
-import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './pages/HomePage';
+import Navbar from './components/Navbar';
+import MockupPage from './pages/MockupPage';
 
 const App = () => {
-  const [count, setCount] = useState(0)
-
-  const handleClick = () => {
-    setCount(count + 1);
-  }
   
   return (
     <div>
-      <QuickStart /><br />
-      <MyButton count={count} onClick={handleClick} />
-      <MyButton count={count} onClick={handleClick} />
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path='/' element=<HomePage/> />
+          <Route path='/mockup(json)' element=<MockupPage/> />
+        </Routes>
+      </Router> 
       
     </div>
   )
