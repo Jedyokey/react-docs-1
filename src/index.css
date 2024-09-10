@@ -21,6 +21,9 @@ body {
   text-decoration: none;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+.nav-bar .nav-link:hover {
+  text-decoration: underline;
+}
 .board-row .square {
   background-color: #fff;
   border: 1px solid #999;
@@ -49,4 +52,56 @@ body {
 }
 .game .game-info {
   margin-top: 30px;
+}
+
+/* Describing the UI */
+.ui-box {
+  background-color: aliceblue;
+  height: 400vh;
+  margin: -20px -10px;
+  padding: 1px 10px;
+}
+.profile {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.card {
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #fff;
+}
+.avatar {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+.scientists {
+  list-style-type: none;
+  padding: 0 10px;
+}
+article {
+  width: 400px;
+}
+article h1 {
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+}
+.scientists li {
+  margin: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
 }

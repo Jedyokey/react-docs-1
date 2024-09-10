@@ -14,7 +14,7 @@ const MockupPage = () => {
   return (
     <div>
         <FilterableProductTable products={PRODUCTS} /> 
-      
+        
     </div>
   )
 }

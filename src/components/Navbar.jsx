@@ -6,6 +6,7 @@ const Navbar = () => {
     <div className='navbar'>
         <Link className='nav-link' to="/">Homepage</Link> 
         <Link className='nav-link' to="/mockup(json)">Mockup</Link> 
+        <Link className='nav-link' to="/describing-the-UI">The UI</Link> 
     </div>
   )
 }
