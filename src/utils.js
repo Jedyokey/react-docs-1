@@ -7,3 +7,27 @@ const getImageUrl = () => {
 }
 
 export default getImageUrl
+
+export const getAnotherImage = (person, size = "s") => {
+  return (
+    "https://i.imgur.com/" + person.imageId + size + ".jpg"
+  )
+} 
+
+export const getAnImage = (person, size = "s") => {
+  return (
+    "https://i.imgur.com/" + person.imageId + size + ".jpg"
+  )
+}
+
+export const getSomeImage = (imageId, size = "s") => {
+  return (
+    "https://i.imgur.com/" + imageId + size + ".jpg"
+  )
+}
+
+export const getAnImage2 = (person, size) => {
+  return (
+    "https://i.imgur.com/" + person.imageId + size + ".jpg"
+  )
+}

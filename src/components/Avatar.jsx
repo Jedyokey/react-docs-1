@@ -2,7 +2,7 @@ import React from 'react'
 import getImageUrl from '../utils'
 
 const Avatar = ({person, size}) => {
-  return (
+  return ( 
     <div>
         <img 
         className='avatar' 

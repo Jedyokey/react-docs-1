@@ -8,7 +8,8 @@ body {
   overflow-x: hidden;
 }
 .navbar {
-  background-color: rgb(135, 143, 52);
+  /* background-color: rgb(135, 143, 52); */
+  background-color: #BDB76B;
   padding: 20px;
   margin: -12px;
   text-align: center;
@@ -56,8 +57,8 @@ body {
 
 /* Describing the UI */
 .ui-box {
-  background-color: aliceblue;
-  height: 400vh;
+  background-color: #FFFACD;
+  height: 320vh;
   margin: -20px -10px;
   padding: 1px 10px;
 }
@@ -104,4 +105,92 @@ article h1 {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+}
+
+/* Passing Props to a Component */
+.cards {
+  width: fit-content;
+  margin: 5px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: center;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #FFF5EE;
+}
+.avatar2 {
+  margin: 20px;
+  border-radius: 50%;
+}
+
+
+/* Practice Test */
+.profile-flex {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 20px;
+}
+.profile-flex .profile-flex-1 {
+  background-color: aquamarine;
+  padding-bottom: 32px;
+}
+.profile-flex .profile-flex-2 {
+  background-color: bisque;
+}
+.profile5 {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  width: 400px;
+}
+.profile5 img {
+  width: 100px;
+  height: 80px;
+  border-radius: 50%;
+}
+.profile5 ul, .profile5 h2, .profile5 .profile5-img {
+  /* padding: 0px 10px 0px 20px;  */
+  padding: 0 10px;
+}
+.profile5 ul li {
+  list-style-type: none;
+  margin-bottom: 5px;
+}
+
+/* Practice Test 2 */
+.avatar3 {
+  border-radius: 50%;
+  margin: 20px;
+}
+
+/* Practice Test 3 */
+.card2 {
+  width: fit-content;
+  margin: 20px;
+  padding: 5px 30px;
+  border: 1px solid #aaa;
+  border-radius: 20px;
+  background: #fff;
+}
+.card-2a h1 {
+  font-size: 24px;
+  text-align: center;
+}
+.card-2a img {
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+.card-2b {
+  text-align: center;
+  width: 300px;
+}
+.card-2b h1 {
+  margin-bottom: 0;
+  margin-top: 15px;
+  font-size: 24px;
+}
+.card-2b p {
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
