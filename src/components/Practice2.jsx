@@ -1,5 +1,5 @@
 import React from "react";
-import { getAnImage2 } from "../utils";
+import { getAnImage2 } from "../js_files/utils";
 
 const Profile6 = () => {
     return (

@@ -1,5 +1,5 @@
 import React from 'react'
-import getImageUrl from '../utils'
+import getImageUrl from '../js_files/utils'
 
 const Avatar = ({person, size}) => {
   return ( 

@@ -194,3 +194,31 @@ article h1 {
   margin-top: 10px;
   margin-bottom: 20px;
 }
+
+/* Conditional Rendering */
+.second-list {
+  margin-top: 20px;
+}
+
+/* Rendering List */
+.chemist-main {
+  background-color: rgba(0, 255, 255, 0.248);
+  padding: 20px 30px;
+  border-radius: 10px;
+  list-style: none;
+}
+.chemist-main:last-child {
+  background-color: rgba(100, 148, 237, 0.312);
+}
+.chemist-list {
+  margin-bottom: 10px; 
+  display: grid; 
+  grid-template-columns: auto 1fr;
+  gap: 20px;
+  align-items: center;
+}
+.chemist-list img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}

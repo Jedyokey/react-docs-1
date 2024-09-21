@@ -1,4 +1,4 @@
-import { getSomeImage } from "../utils";
+import { getSomeImage } from "../js_files/utils";
 
 export default function Gallery() {
   return (

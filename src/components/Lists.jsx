@@ -1,5 +1,5 @@
 import React from 'react'
-import { people } from '../data'
+import { people } from '../js_files/data'
 
 const Lists = () => {
     const imageSize = {
