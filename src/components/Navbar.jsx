@@ -10,6 +10,8 @@ const Navbar = () => {
         <Link className='nav-link' to="/describing-the-UI/passing-props-to-a-component">Props(The UI)</Link> 
         <Link className='nav-link' to="/describing-the-UI/conditional-rendering">Conditional(The UI)</Link> 
         <Link className='nav-link' to="/describing-the-UI/rendering-list">RenderingList</Link> 
+        <Link className='nav-link' to="/describing-the-UI/keeping-components-pure">Purity</Link> 
+        <Link className='nav-link' to="/describing-the-UI/your-UI-as-a-tree">UIasAtree</Link>  
     </div>
   )
 }

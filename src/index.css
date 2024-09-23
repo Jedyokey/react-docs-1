@@ -222,3 +222,70 @@ article h1 {
   height: 80px;
   border-radius: 50%;
 }
+
+/* Challenge 1 (Fix broken clock) */
+.day {
+  background: #fff;
+  color: #222;
+}
+.night {
+  background: #222;
+  color: #fff;
+}
+
+/* Challenge 2 (Fix profile) */
+.profile-flex2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.practice-avatar { 
+  margin: 5px; 
+  border-radius: 50%; 
+}
+.panel {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  margin-top: 20px;
+  padding: 10px;
+  width: auto;
+  background-color: antiquewhite;
+}
+
+/* Challenge 3 (Fix broken story tray) */
+.story-list {
+  margin: 0;
+  list-style-type: none;
+}
+.story-list li {
+  border: 1px solid #aaa;
+  border-radius: 6px;
+  float: left;
+  margin: 5px;
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 70px;
+  height: 100px;
+}
+
+/* inspirational quotes styles */
+.fancy {
+  font-family: 'Georgia';
+}
+.title {
+  color: #007AA3;
+  text-decoration: underline;
+}
+.cursive {
+  font-style: italic;
+}
+.small {
+  font-size: 10px;
+}
+.colorbox {
+  height: 100px;
+  width: 100px;
+  margin: 8px;
+  border: 1px solid #bbb;
+  border-radius: 7px;
+}

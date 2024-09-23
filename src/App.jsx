@@ -7,6 +7,8 @@ import DescribingTheUI from './pages/DescribingTheUI';
 import FirstComponent from './pages/FirstComponent';
 import ConditionalPage from './pages/ConditionalPage';
 import RenderListPage from './pages/RenderListPage';
+import PurityPage from './pages/PurityPage';
+import UIasAtree from './pages/UIasAtree';
 
 const App = () => {
   
@@ -21,6 +23,8 @@ const App = () => {
           <Route path='/describing-the-UI/passing-props-to-a-component' element=<FirstComponent /> />
           <Route path='/describing-the-UI/conditional-rendering' element=<ConditionalPage /> /> 
           <Route path='/describing-the-UI/rendering-list' element=<RenderListPage /> />
+          <Route path='/describing-the-UI/keeping-components-pure' element=<PurityPage /> />
+          <Route path='/describing-the-UI/your-UI-as-a-tree' element=<UIasAtree /> /> 
         </Routes>
       </Router> 
       
