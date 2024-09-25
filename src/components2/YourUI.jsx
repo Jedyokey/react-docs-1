@@ -6,8 +6,8 @@ import Copyright from './Copyright'
 const YourUI = () => {
   return (
     <div>
-        <FancyText title text="Get Inspired App" />
-        <InspiratorGenerator>
+        <FancyText title text="Get Inspired App" /> 
+        <InspiratorGenerator> 
             <Copyright year={2024} />
         </InspiratorGenerator>
       

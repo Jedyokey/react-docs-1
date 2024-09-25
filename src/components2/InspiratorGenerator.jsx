@@ -14,6 +14,7 @@ const InspiratorGenerator = ({children}) => {
   return (
     <div>
         <p>Your inspirational {inspiration.type} is:</p>
+        {/* <FancyText text={quote} /> */} 
         {inspiration.type === "quote" ? (  
             <FancyText text={inspiration.value} />
         ) : (
